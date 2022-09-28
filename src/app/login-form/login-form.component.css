@@ -1,0 +1,24 @@
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.login {
+    margin-top: 20%;
+}
+
+/* .login {
+    position: absolute;
+    display:inline-block;
+    text-align:center;
+}
+
+.login::before {
+    content:'';
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+    width:0px;
+} */

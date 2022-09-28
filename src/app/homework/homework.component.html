@@ -1,0 +1,11 @@
+<h1>Your Homework</h1>
+
+
+
+<div *ngIf="this.userService.decryptUser(this.userService.getLoggedUser()) == this.userService.decryptUser(this.userService.getUsers().Danil)">
+    Danil
+</div>
+
+<div *ngIf="this.userService.decryptUser(this.userService.getLoggedUser()) == this.userService.decryptUser(this.userService.getUsers().Alexey)">
+    Alexey
+</div>

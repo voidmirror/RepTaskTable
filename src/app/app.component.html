@@ -1,0 +1,5 @@
+
+<router-outlet></router-outlet>
+
+<app-login-form *ngIf="this.userService.getLoggedUser() == 'None'"></app-login-form>
+<app-homework *ngIf="!(this.userService.getLoggedUser() == 'None')"></app-homework>
