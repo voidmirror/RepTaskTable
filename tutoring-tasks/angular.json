@@ -22,6 +22,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            
+            "deployUrl": "/RepTaskTable/",
             "assets": [
               "src/favicon.ico",
               "src/assets"
